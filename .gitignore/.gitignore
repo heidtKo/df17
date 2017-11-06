@@ -22,6 +22,8 @@ sharingRules/copado__*
 staticresources/copado__*
 permissionsets/copado__*
 tabs/copado__*
+reports/*
+dashboards/*
 
 #profiles and permission sets are complex Files. If your Org's metadata and Git are in sync,
 #you can track incremental changes on Profiles and Permission sets using Copado "commit files" functionality.
