@@ -1,7 +1,7 @@
 #package.xml file is recreated on the fly by Copado, no need to track unnecessary changes of this file
 package.xml
 
-#somestuff
+#someOtherCommit
 
 installedPackages/*
 .idea/*
