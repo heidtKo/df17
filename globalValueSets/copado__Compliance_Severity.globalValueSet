@@ -11,14 +11,14 @@
         <label>High</label>
     </customValue>
     <customValue>
-        <fullName>Medium</fullName>
-        <default>true</default>
-        <label>Medium</label>
-    </customValue>
-    <customValue>
         <fullName>Low</fullName>
         <default>false</default>
         <label>Low</label>
+    </customValue>
+    <customValue>
+        <fullName>Medium</fullName>
+        <default>false</default>
+        <label>Medium</label>
     </customValue>
     <masterLabel>Compliance Severity</masterLabel>
     <sorted>false</sorted>
