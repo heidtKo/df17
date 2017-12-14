@@ -83,6 +83,19 @@
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
+    <fields>
+        <fullName>Time_Period__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Time Period</label>
+        <referenceTo>Period__c</referenceTo>
+        <relationshipLabel>Account Plans</relationshipLabel>
+        <relationshipName>Account_Plans</relationshipName>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
     <gender>Feminine</gender>
     <label>Account Plan</label>
     <listViews>
