@@ -3,12 +3,7 @@
     <custom>true</custom>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Account.Field1__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.Field2__c</field>
+        <field>Account.Field3__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <userLicense>Salesforce</userLicense>

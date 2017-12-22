@@ -40,10 +40,11 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
-    <allowInChatterGroups>true</allowInChatterGroups>
+    <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <enableActivities>true</enableActivities>
+    <description>Captures fixed periods, to standardize start and end dates</description>
+    <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableChangeDataCapture>false</enableChangeDataCapture>
     <enableFeeds>false</enableFeeds>
@@ -53,53 +54,68 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>AchievedAmount__c</fullName>
+        <fullName>PeriodEnd__c</fullName>
+        <defaultValue>TODAY() + 365</defaultValue>
         <externalId>false</externalId>
-        <label>Achieved Amount</label>
-        <precision>18</precision>
+        <label>Period End</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PeriodStart__c</fullName>
+        <defaultValue>TODAY()</defaultValue>
+        <externalId>false</externalId>
+        <label>Period Start</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
         <required>false</required>
-        <scale>2</scale>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>Currency</type>
-    </fields>
-    <fields>
-        <fullName>PlannedAmount__c</fullName>
-        <externalId>false</externalId>
-        <label>Planned Amount</label>
-        <precision>18</precision>
-        <required>true</required>
-        <scale>2</scale>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Currency</type>
-    </fields>
-    <fields>
-        <fullName>Time_Period__c</fullName>
-        <deleteConstraint>Restrict</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Time Period</label>
-        <referenceTo>Period__c</referenceTo>
-        <relationshipLabel>Account Plans</relationshipLabel>
-        <relationshipName>Account_Plans</relationshipName>
-        <required>true</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Year</fullName>
+                    <default>true</default>
+                    <label>Year</label>
+                </value>
+                <value>
+                    <fullName>Quarter</fullName>
+                    <default>false</default>
+                    <label>Quarter</label>
+                </value>
+                <value>
+                    <fullName>Trimester</fullName>
+                    <default>false</default>
+                    <label>Trimester</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <gender>Feminine</gender>
-    <label>Account Plan</label>
+    <label>Period</label>
     <listViews>
         <fullName>All</fullName>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
     <nameField>
-        <label>Account Plan Name</label>
+        <label>Period Name</label>
         <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Account Plans</pluralLabel>
+    <pluralLabel>Periods</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
