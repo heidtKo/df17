@@ -5,4 +5,8 @@ public class Utility {
     public static void someDebugoutPut(){
         system.debug('this is another comment');
     }
+
+    public static void debugSomeComments (){
+        System.debug('Thomson Rules');
+    }
 }
