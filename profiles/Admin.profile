@@ -1475,6 +1475,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>AccountPlanLink__c.CustomTimestamp__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>AccountPlan__c.AchievedAmount__c</field>
         <readable>true</readable>
     </fieldPermissions>
