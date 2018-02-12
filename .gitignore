@@ -10,7 +10,7 @@ installedPackages/*
 applications/copado__*
 classes/copado__*
 customPermissions/copado__*
-dashboards/copado__*
+#dashboards/copado__*
 email/copado__*
 triggers/copado__*
 pages/copado__*
