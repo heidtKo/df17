@@ -31,7 +31,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>TimePeriod__c</field>
+                <field>This_is_a_Custom_Field__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
