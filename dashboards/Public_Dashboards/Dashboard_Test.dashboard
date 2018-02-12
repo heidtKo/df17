@@ -31,7 +31,7 @@
     <rightSection>
         <columnSize>Medium</columnSize>
     </rightSection>
-    <runningUser>kheidt@dreamforce17.dev1.com</runningUser>
+    <runningUser>{!Environment.DashboardUser}</runningUser>
     <textColor>#000000</textColor>
     <title>Dashboard Test</title>
     <titleColor>#000000</titleColor>
