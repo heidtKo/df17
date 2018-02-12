@@ -33,5 +33,15 @@
         <unique>false</unique>
     </fields>
     <label>Endpoint</label>
+    <listViews>
+        <fullName>Alln</fullName>
+        <columns>NAME</columns>
+        <columns>SETUP_TYPE</columns>
+        <columns>Target__c</columns>
+        <columns>Value__c</columns>
+        <columns>MoreInfo__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <visibility>Public</visibility>
 </CustomObject>
