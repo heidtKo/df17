@@ -173,6 +173,14 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Importang_for_EC4U__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Importang for EC4U</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Industry</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
