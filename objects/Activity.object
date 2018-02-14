@@ -34,6 +34,13 @@
     </actionOverrides>
     <enableFeeds>false</enableFeeds>
     <fields>
+        <fullName>This_is_a_Custom_Field__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>This is a Custom Field</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>TimePeriod__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>

@@ -2100,6 +2100,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Event.This_is_a_Custom_Field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Event.TimePeriod__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2591,6 +2596,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Task.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Task.This_is_a_Custom_Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
