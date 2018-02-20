@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
-        <plural>true</plural>
-        <value>Account Plans</value>
-    </caseValues>
-    <!--
-      Hello,
-         I am a multi-line XML comment
-         <staticText>
-            <reportElement x="180" y="0" width="200" height="20"/>
-            <text><![CDATA[Hello World!]]></text>
-          </staticText>
-      -->
-    <caseValues>
         <plural>false</plural>
         <value>Account Plan</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Account Plans</value>
     </caseValues>
     <gender>Feminine</gender>
 </CustomObjectTranslation>
