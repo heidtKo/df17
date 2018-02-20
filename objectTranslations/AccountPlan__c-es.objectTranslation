@@ -4,5 +4,9 @@
         <plural>true</plural>
         <value>Account Plans</value>
     </caseValues>
+    <caseValues>
+        <plural>false</plural>
+        <value>Account Plan</value>
+    </caseValues>
     <gender>Feminine</gender>
 </CustomObjectTranslation>
