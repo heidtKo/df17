@@ -35,7 +35,7 @@ tabs/copado__*
 # permissionsets/*
 
 translations/*
-objectTranslations/*
+# objectTranslations/*
 
 #Sites which has Domain mapping has environment specific information.
 #Make sure you setup Copado Environment Variables to make sites config files environment agnostic.
