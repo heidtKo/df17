@@ -32,7 +32,7 @@ tabs/copado__*
 # Below is how to ignore them
 
 # profiles/*
-# permissionsets/*
+permissionsets/*
 
 translations/*
 # objectTranslations/*
