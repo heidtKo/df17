@@ -31,8 +31,8 @@ tabs/copado__*
 #You can deploy profiles and permission sets using Copado Deployer steps: Full profiles and Full Permission sets.
 # Below is how to ignore them
 
-profiles/*
-permissionsets/*
+# profiles/*
+# permissionsets/*
 
 translations/*
 # objectTranslations/*
