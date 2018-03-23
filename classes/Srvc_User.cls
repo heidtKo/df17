@@ -14,6 +14,9 @@ public class Srvc_User {
     }
     
     public static Profile getProfile(String profileName){
+
+        this.printSomeDebug();
+
         if(registry.get(profileName)!= null){
             return (Profile) registry.get(profileName);
         } else{
@@ -22,6 +25,10 @@ public class Srvc_User {
             return thisProfile;
         }
         
+    }
+
+    public static void printSomeDebug(){
+        System.debug('I am a change');
     }
     
     /** queries and more stuff **/
