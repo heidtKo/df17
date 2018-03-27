@@ -8,5 +8,18 @@
         <plural>true</plural>
         <value>Account Plans</value>
     </caseValues>
+    <fields>
+        <label><!-- Achieved Amount --></label>
+        <name>AchievedAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Planned Amount --></label>
+        <name>PlannedAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Period --></label>
+        <name>Time_Period__c</name>
+        <relationshipLabel><!-- Account Plans --></relationshipLabel>
+    </fields>
     <gender>Feminine</gender>
 </CustomObjectTranslation>

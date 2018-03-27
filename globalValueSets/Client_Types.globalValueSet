@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>All</fullName>
+        <default>false</default>
+        <label>All</label>
+    </customValue>
+    <customValue>
+        <fullName>Conservative Classic</fullName>
+        <default>false</default>
+        <label>Conservative Classic</label>
+    </customValue>
+    <customValue>
+        <fullName>Conservative Modern</fullName>
+        <default>false</default>
+        <label>Conservative Modern</label>
+    </customValue>
+    <customValue>
+        <fullName>Innovation Tech</fullName>
+        <default>false</default>
+        <label>Innovation Tech</label>
+    </customValue>
+    <customValue>
+        <fullName>Innovation Playful</fullName>
+        <default>false</default>
+        <label>Innovation Playful</label>
+    </customValue>
+    <customValue>
+        <fullName>Sustainability First</fullName>
+        <default>false</default>
+        <label>Sustainability First</label>
+    </customValue>
+    <description>types of clients</description>
+    <masterLabel>Client Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
