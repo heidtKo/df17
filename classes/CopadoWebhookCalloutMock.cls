@@ -1,7 +1,7 @@
 /**
  * Created by kheidt on 19/03/2018.
  */
-
+@isTest
 public class CopadoWebhookCalloutMock implements HttpCalloutMock{
 
     public String responseBody;
